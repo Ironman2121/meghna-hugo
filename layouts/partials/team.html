@@ -23,7 +23,7 @@
           <div class="member-photo">
             {{"<!-- member photo -->" | safeHTML}}
             <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
-          {{"<!-- member name & designation --> <!-- member social profile -->" | safeHTML}}
+          {{"<!-- member name & designation & social profil -->" | safeHTML}}
           <div class="member-meta">
             <h4>{{ .name }}</h4>
             <span>{{ .designation | markdownify}}</span>
