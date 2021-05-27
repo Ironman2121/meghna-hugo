@@ -22,8 +22,9 @@
         <div class="team-member">
           <div class="member-photo">
             {{"<!-- member photo -->" | safeHTML}}
-          <img class="circle" data-src="{{ .image_webp | absURL }}"/>
-	              {{"<!-- member social profile -->" | safeHTML}}
+            <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
+
+            {{"<!-- member social profile -->" | safeHTML}}
             <div class="mask">
               <ul class="list-inline">
                 {{ range .social }}
@@ -46,6 +47,6 @@
     </div>
   </div>
 </section>
- {{"<!-- /team -->" | safeHTML}}
+{{"<!-- /team -->" | safeHTML}}
 {{ end }}
 {{ end }}
