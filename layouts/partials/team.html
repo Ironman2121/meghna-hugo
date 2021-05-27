@@ -22,11 +22,7 @@
         <div class="team-member">
           <div class="member-photo">
             {{"<!-- member photo -->" | safeHTML}}
-            <!-- Start of custom inages -->
-            <img class="circle" src="data:image/jpg;base64,https://www.google.com/url?sa=i&url=https%3A%2F%2Fhowfix2020.blogspot.com%2F2020%2F02%2Ffix-error-icon.html&psig=AOvVaw305rLVi7qqvUzFMqMut08r&ust=1622208100820000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICen5_66fACFQAAAAAdAAAAABAK" />
-            <img class="img img1" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}"/>
-            
-            <!-- end of custom Img-->
+            <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 
             {{"<!-- member social profile -->" | safeHTML}}
             <div class="mask">
