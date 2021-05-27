@@ -1,4 +1,4 @@
-{{ $data := index site.Data site.Language.Lang }}
+{ $data := index site.Data site.Language.Lang }}
 
 {{ if $data.team.team.enable }}
 {{ with $data.team.team }}
@@ -23,13 +23,12 @@
           <div class="member-photo">
             {{"<!-- member photo -->" | safeHTML}}
             <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
-
-          {{"<!-- member name & designation -->" | safeHTML}}
+          {{"<!-- member name & designation -->" "<!-- member social profile -->" | safeHTML}}
           <div class="member-meta">
             <h4>{{ .name }}</h4>
             <span>{{ .designation | markdownify}}</span>
             <p>{{ .content | markdownify }}</p>
-	     <ul class="list-inline">
+		  <ul class="list-inline">
                 {{ range .social }}
                 <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
                 {{ end }}
