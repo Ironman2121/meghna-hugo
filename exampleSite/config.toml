@@ -1,4 +1,4 @@
-baseURL = "https://https://WorkPlacemntTestSite.com.com"
+baseURL = "https://WorkPlacemntTestSite.com"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
