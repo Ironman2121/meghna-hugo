@@ -5,7 +5,7 @@ team:
   team_member:
   - name: Rick Bilby
     image_webp: images/team/team-1.webp
-    image: exampleSite/static/images/team/Temp Img.jpg
+    image: "/images/team/Temp Img.jpg"
     designation: Vampire Bat
     content: Rick is an awesome consultant.
     social:
