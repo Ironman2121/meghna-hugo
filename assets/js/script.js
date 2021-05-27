@@ -144,9 +144,3 @@ jQuery(function ($) {
 	});
 
 });
-
-/* <!-- Start of HubSpot Embed Code -->
-/* <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20116886.js"></script>
-/* <!-- End of HubSpot Embed Code -->
-/* Tidio
-<script src="//code.tidio.co/tp3q1gculrpuw1n5kyivk6wzywj8zjuq.js" async></script>
