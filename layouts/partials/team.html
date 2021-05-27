@@ -29,9 +29,10 @@
             <h4>{{ .name }}</h4>
             <span>{{ .designation | markdownify}}</span>
             <p>{{ .content | markdownify }}</p>
-              <ul class="list-inline">
+            <p><ul class="list-inline">
                 {{ range .social }}
                 <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+            </p>
                 {{ end }}
               </ul>
           </div>
