@@ -21,7 +21,7 @@ team:
     image_webp: images/team/team-2.webp
     image: images/team/team-2.jpg
     designation: Managing Partner
-    content: Jay is an accomplished businessman and has his finger in a lot of pies.
+    content: 'smaller text i hope will make it better '
     social:
     - icon: ti-facebook
       link: "#"
