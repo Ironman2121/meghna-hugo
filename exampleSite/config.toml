@@ -1,6 +1,4 @@
-baseURL = "https://WorkPlacemntTestSite.com"
-disableLanguages = []
-=======
+
 baseURL = "https://btc-test.netlify.app"
 disableLanguages = ["fr"]
 disqusShortname = ""
@@ -8,8 +6,6 @@ paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
 themesDir = "../.."
-title = "Meghna"
-=======
 title = "Bilby Tolley & Company"
 [Languages.en]
 contentDir = "content/english"
