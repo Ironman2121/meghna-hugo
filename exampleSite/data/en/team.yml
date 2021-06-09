@@ -3,6 +3,7 @@ team:
   enable: true
   title: Our Team
   team_member:
+
   - name: Rick Bilby
     image_webp: images/team/team-1.webp
     image: "/images/team/Temp Img.jpg"
@@ -52,6 +53,34 @@ team:
     designation: SEO Specialist
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
+=======
+  - name: Jay Tolley
+    image_webp: ''
+    image: ''
+    designation: Managing Partner
+    content: |-
+      Jay, a graduate of The University of Leeds, has a professional background in the food industry, working with companies of all sizes around the world to improve internal systems, investigate problematic operational areas, provide specialist training and transform organisational cultures to achieve growth expectations.
+
+      His extensive experience as the Managing Director of a SME multi-million pound revenue ISO accredited company, coupled with a MBA gives him the credentials to review systems quickly and effectively to identify improvement points that can not only lead to greater operational efficiency and cost control but also lead to an increased competitive standing for any business.
+
+      His consultancy career began with providing expert advice for Crisis Management Companies based in the City of London. This led to his involvement in crisis management emergencies and reviews in Europe, Asia and the US for various sized companies and international government agencies.
+
+      Jay has a particular focus in Quality Systems, operations management & organisational change and development. These critical areas are where competitive advantages are built and maintained. He ensures that his knowledge is both up to date with current business models and processes through regular interactions with academia and follows a particular interest in Industry 4.0 and employee motivation.
+
+      In his spare time Jay continues his life-long study of martial arts and is currently training to be a certified Life/Executive coach. He enjoys travelling with Canada being his favourite destination.
+    social: ''
+  - name: Rick Bilby
+    image_webp: images/team/team-1.webp
+    image: "/images/rickportrait1.jpg"
+    designation: Principal Consultant
+    content: |
+      Having forged a successful career at Citigroup, and built his own consulting practice, Rick Bilby brings a unique blend of financial know-how and project management to the table, which puts him in prime position to guide burgeoning SMEs. In 1993, Rick started his career as a Project Manager in Risk Architecture at Citigroup.  This sent him on a global path, advancing through Risk Management roles at Citi in Düsseldorf and Hong Kong, improving infrastructure for many thousands of users.
+
+      Today, Rick channels his energy into smaller, but equally rewarding, projects. Having lived in several countries, he is now a skilled communicator in French and German. Since 2020, Rick has also held a Director role at an AI/tech start-up, project-managing a new e-commerce website selling pro-quality film-making equipment.
+
+      His thirst for knowledge knows no bounds, having completed AGILE Project Management training, a BSc in Physics at Imperial College London, and an Executive MBA at Salford University Business School.
+
+      Some of Rick’s biggest improvements include streamlining workflows by 50% for 20,000 client organisation members – but he is just as talented outside of work. A musician, sportsman and entrepreneur, Rick has been managing projects all his life, and relishes the opportunity to work with new people.
     social:
     - icon: ti-facebook
       link: "#"

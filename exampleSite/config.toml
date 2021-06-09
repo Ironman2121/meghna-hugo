@@ -1,11 +1,16 @@
 baseURL = "https://WorkPlacemntTestSite.com"
 disableLanguages = []
+=======
+baseURL = "https://btc-test.netlify.app"
+disableLanguages = ["fr"]
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
 themesDir = "../.."
 title = "Meghna"
+=======
+title = "Bilby Tolley & Company"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
@@ -115,8 +120,6 @@ link = "plugins/jquery/jquery.min.js"
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/ChatBot/chatbot.js"
 [[params.plugins.js]]
 link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
