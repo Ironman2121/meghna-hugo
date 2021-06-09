@@ -1,0 +1,68 @@
+Maghna-Hugo Theam
+Section/ Page Css lines 
+
+Main Page: 10 - 44
+	Html: Line 10 - 13
+	Body: Line 15 - 20
+
+Besic Setup: 48 - 405
+
+
+Navigation: 409 - 636
+section 1: 409 - 612
+
+
+section 2: 616 - 636
+
+
+Call To Action: 641 - 768
+Section 1: 641 - 658
+
+
+Section 2: 668 - 768
+
+
+Item counter section: 773 - 796
+
+
+Pricing section: 800 - 851
+
+
+Portfolio section: 855 - 944
+
+
+Services: 948 - 994
+section 1: 948 - 960
+
+
+section 2: 964 - 994
+
+
+Our skills: 998 - 1019
+
+
+Our Team: 1023 - 1111
+
+
+Testimonial section: 1115 - 1213
+
+
+Latest Posts: 1217 - 1251
+
+
+Single Blog Page: 1255 - 1506
+
+
+Staticman Comments: 1440 - 1506
+
+
+Footer: 1510 - 1578
+
+
+Twitter: 1582 - 1604
+
+
+Blog: 1608 - 1862
+
+
+Single Blog Page: 1866 - 2370
